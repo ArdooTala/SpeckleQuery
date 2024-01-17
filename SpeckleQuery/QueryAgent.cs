@@ -23,11 +23,11 @@ namespace SpeckleQuery
   /// </returns>
   public class QueryAgent : Client
   {
-    public QueryAgent() : base()
-    {
-      //QueryVariables = new ExpandoObject();
-      layers = new List<Layer> { };
-    }
+    //public QueryAgent() : base()
+    //{
+    //  //QueryVariables = new ExpandoObject();
+    //  layers = new List<Layer> { };
+    //}
     public QueryAgent(Account account) : base(account)
     {
       //QueryVariables = new ExpandoObject();
